@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.outerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+.left-box h1{
+    color: #2b77f2;
+    font-weight: bold;
+    font-size: 3vmax;
+    line-height: 0.5;
+}
+.left-box p{
+    
+    max-width: 440px;
+    font-weight: normal;
+    font-size: 2vmin;
+
+}
+.right-box{
+ text-align: center;
+    width: 400px;
+  
+    
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 25px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 4px 4px rgba(0, 0, 0, 0.329) ;
+}
+.form-div input{
+    height: 45px;
+   width: 100%;
+    border: 0.02px solid rgba(0, 0, 0, 0.222);
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.line{
+    height: 1px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.329);
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.form-div input[type="submit"]{
+    background-color: #2b77f2;
+    border: none;
+    color: white;
+}
+#createBtn{
+    background-color: #28a745;
+    width: 200px;
+}
